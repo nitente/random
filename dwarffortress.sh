@@ -15,7 +15,7 @@ dependencies=$(printf 'openal-soft.i686 glibc.i686 mesa-libGLU.i686 gtk2.i686 SD
 if [ -d /home/$USER/Dwarf\ Fortress ]; then 
   mv /home/$USER/Dwarf\ Fortress /home/$USER/Dwarf\ Fortress\ Backup && 
   echo "Old folder moved to 'Dwarf Fortress Backup'"; else 
-  echo "Old folder not found, procceding with installation." 
+  echo "Old folder not found, proceeding  with installation." 
 fi 
 
 mkdir dwarffortress_tmp
