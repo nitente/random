@@ -1,0 +1,15 @@
+# chromium
+# https://fedoraproject.org/wiki/Chromium
+# https://repos.fedorapeople.org/repos/spot/chromium/
+
+$ sudo dnf config-manater --add-repo https://repos.fedorapeople.org/repos/spot/chromium/fedora-chromium-stable.repo
+$ sudo rpm --import https://repos.fedorapeople.org/repos/spot/chromium/spot.gpg
+$ sudo dnf install chromium
+
+# skype
+# https://www.skype.com
+$ sudo dnf install skype-*
+
+# google chrome
+# https://www.google.com/chrome/browser/desktop/index.html
+$ sudo dnf install google-*
